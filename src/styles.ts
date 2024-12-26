@@ -1,10 +1,10 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
-:root {
+/*:root {
   --cor-principal: #a7727d;
   --cor-secundaria: #f9f5e7;
-}
+}*/
 
   * {
   margin: 0;
@@ -16,6 +16,7 @@ const EstiloGlobal = createGlobalStyle`
 
   body {
   padding-bottom: 120px;
+  background-color: ${(props) => props.theme.corDeFundo};
 }
 `
 export default EstiloGlobal
