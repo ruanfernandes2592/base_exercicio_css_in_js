@@ -7,6 +7,9 @@ export const VagaCard = styled.li`
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &:hover {
     background-color: var(--cor-principal);

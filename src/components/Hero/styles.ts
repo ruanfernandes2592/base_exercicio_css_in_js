@@ -26,6 +26,7 @@ export const HeroTitle = styled.h2`
   font-size: 48px;
   position: relative;
   color: #eee;
+  padding-left: 16px;
 
   @media (max-width: 768px) {
     font-size: 36px;
